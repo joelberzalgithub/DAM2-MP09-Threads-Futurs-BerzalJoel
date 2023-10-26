@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.Controller1">
+   <children>
+      <Text layoutX="-1.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vista 1" textAlignment="CENTER" wrappingWidth="804.4" AnchorPane.topAnchor="17.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <Button fx:id="button0" layoutX="14.0" layoutY="28.0" mnemonicParsing="false" onAction="#animateToView0" prefHeight="40.0" prefWidth="98.0" style="-fx-background-color: white;" text="&lt; Vista 0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Line endX="626.1000366210938" layoutX="175.0" layoutY="80.0" startX="-174.99998474121094" />
+      <Button fx:id="button1" layoutX="20.0" layoutY="101.0" mnemonicParsing="false" onAction="#loadImage" prefHeight="40.0" prefWidth="98.0" text="Carregar" AnchorPane.topAnchor="100.0" />
+      <Button fx:id="button2" layoutX="686.0" layoutY="100.0" mnemonicParsing="false" onAction="#stopImage" prefHeight="40.0" prefWidth="98.0" text="Aturar" />
+      <Label layoutX="20.0" layoutY="160.0" text="Progrés," />
+      <Label fx:id="progress" layoutX="81.0" layoutY="160.0" text="0" />
+      <Label layoutX="103.0" layoutY="160.0" text="de 24" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eeeeee" height="25.0" layoutX="17.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="768.0" />
+      <ImageView fx:id="img1" fitHeight="75.0" fitWidth="75.0" layoutX="18.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img2" fitHeight="75.0" fitWidth="75.0" layoutX="110.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img3" fitHeight="75.0" fitWidth="75.0" layoutX="210.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img4" fitHeight="75.0" fitWidth="75.0" layoutX="310.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img5" fitHeight="75.0" fitWidth="75.0" layoutX="410.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img6" fitHeight="75.0" fitWidth="75.0" layoutX="510.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img7" fitHeight="75.0" fitWidth="75.0" layoutX="610.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img8" fitHeight="75.0" fitWidth="75.0" layoutX="710.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img9" fitHeight="75.0" fitWidth="75.0" layoutX="18.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img10" fitHeight="75.0" fitWidth="75.0" layoutX="110.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img11" fitHeight="75.0" fitWidth="75.0" layoutX="210.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img12" fitHeight="75.0" fitWidth="75.0" layoutX="311.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img13" fitHeight="75.0" fitWidth="75.0" layoutX="410.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img14" fitHeight="75.0" fitWidth="75.0" layoutX="510.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img15" fitHeight="75.0" fitWidth="75.0" layoutX="610.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img16" fitHeight="75.0" fitWidth="75.0" layoutX="710.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img17" fitHeight="75.0" fitWidth="75.0" layoutX="18.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img18" fitHeight="75.0" fitWidth="75.0" layoutX="110.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img19" fitHeight="75.0" fitWidth="75.0" layoutX="210.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img20" fitHeight="75.0" fitWidth="75.0" layoutX="310.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img21" fitHeight="75.0" fitWidth="75.0" layoutX="410.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img22" fitHeight="75.0" fitWidth="75.0" layoutX="510.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img23" fitHeight="75.0" fitWidth="75.0" layoutX="610.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img24" fitHeight="75.0" fitWidth="75.0" layoutX="710.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle fx:id="bar" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="18.0" layoutY="201.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>
